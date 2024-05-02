@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/a11213444c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>REGISTRO DE TENENCIA RESPONSABLE</h1>
+    </header>
+    <div class="menu">
+        <nav class=".nav-container">
+            <button class="menu-btn">&#9776; Menú</button>
+                <ul>
+                    <li><a href="index.html" class="men">INICIO</a></li>
+                    <li><a href="https://as.com/diarioas/2022/05/15/actualidad/1652611486_811649.html" class="men">REQUISITOS</a></li>
+                    <li><a href="https://nupec.com/blog-nupec/las-preguntas-mas-frecuentes-sobre-adopcion-canina/" class="men">PREGUNTAS FRECUENTES</a></li>
+                    <li><a href="https://www.prensalibre.com/vida/salud-y-familia/consejos-para-prevenir-que-se-pierdan-las-mascotas/" class="men">CONSULTA DE ANIMALES EXTRAVIADOS</a></li>
+                    <li><a href="form3.html" class="men">SOLICITUDES</a></li>
+                </ul>
+        </nav>
+    </div>
+    <div class="contenido">
+        <h1>REGISTRO NACIONAL</h1>
+        <h2>DE MASCOTAS Y ANIMALES DE COMPAÑIA</h2>
+        <h3>Solicita la revision de tus mascotas aqui, revisa cumplir con los requisitos</h3>
+        <div class="enlaces">
+            <button class="but1"><a href="form1.html"><i class="fa-solid fa-paw fa-xl"> Ingresar con la clave unica</i></a></button>
+            <button class="but2"><a href="form2.html"><i class="fa-regular fa-address-card fa-xl"> Ingresar con cedula de identidad</i></a></button>
+        </div>
+    </div>
+    <div class="footer">
+    <footer>
+        <p>Derechos Reservados</p>
+        <div>
+            <a href="" class="log"><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i></a>
+            <a href="" class="log1"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+            <a href="" class="log2"><i class="fa-brands fa-tiktok fa-2xl" style="color: #ffffff;"></i></a>
+            <a href="" class="log3"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #ffffff;"></i></a>
+        </div>
+    </div>   
+    </footer>
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', function() {
+        var items = document.querySelectorAll('nav li');
+        for (var i = 0; i < items.length; i++) {
+            if (items[i].style.display === 'block') {
+        items[i].style.display = 'none';
+            } else {
+            items[i].style.display = 'block';
+            }
+        }
+        });
+        </script>
+</body>
+</html>
+

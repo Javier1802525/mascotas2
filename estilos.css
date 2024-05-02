@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("fondo3.webp");
+    background-size: cover;
+}
+.menu {
+    background-color: #ffffff;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+.menu li {
+    margin-right: 30px;
+}
+.menu a {
+    text-decoration: none;
+    color: #203daf;
+    font-weight: bold;
+}
+.menu a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(3, 3, 73, 0.383);
+}
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background: linear-gradient(700deg, rgb(0, 0, 0), rgb(3, 3, 73));
+    width: auto;
+}
+.footer{
+    margin: 0%;
+    top: 0%;
+    left: 50%;
+    position: relative;
+    text-align: center;
+    transform: translate(-50%, 50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: rgb(3, 3, 73);
+}
+.contenido{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.but1{
+    background-color: rgb(227, 100, 8);
+    padding: 25px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.but2{
+    background-color: rgb(227, 100, 8);
+    padding: 25px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+nav{
+    width: 1000px;
+    margin: 10px auto;
+}
+a .but1 .but2 .men:hover{
+    color: rgb(3, 3, 73);
+    box-shadow: 0 6px 16px 0 rgb(255, 255, 255);
+}
+.enlaces{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 300px;
+}
+.log i{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.log1 i{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.log2 i{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.log3 i{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+}
+p{
+    font-size: 25px;
+    color: aliceblue;
+}
+.but1 i{
+    color: #ffffff;
+}
+.but1 i:hover{
+    color: rgb(3, 3, 73);
+}
+.but2 i{
+    color: #ffffff;
+}
+.but2 i:hover{
+    color: rgb(3, 3, 73);
+}
+
+
+.menu-btn {
+    display: none;
+}
+@media screen and (max-width: 900px) {
+    .menu-btn {
+    display: block;
+    flex-direction: row;
+    padding: 10px 20px;
+    background-color: rgb(3, 3, 73);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+    }
+    .menu ul{
+        display: block;
+    }
+    .enlaces{
+        width: auto;
+    }
+}

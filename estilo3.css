@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.log1{
+    width: 100px;
+    height: auto;
+    padding-right: 400px;
+}
+.log2{
+    width: 250px;
+    height: auto;
+}
+body{
+    background: url(logofinal.webp);
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background: url(logofinal.webp);
+    color: black;
+    border-radius: 10px
+}
+form{
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(252, 25, 63, 0.1);
+    border-radius: 8px;
+    background: linear-gradient(150deg, rgb(88, 187, 233), rgb(206, 208, 192));
+    margin-top: 200px;
+}
+header .header{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2px;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+}
+p{
+    color: rgb(14, 8, 133);
+    font-size: 20px;
+    font-weight: bold;
+}
+a i{
+    color: black;
+}
+input[type=submit],input[type=reset]{
+    background-color: rgb(35, 38, 185);
+    margin: 10px 20px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    border-radius: 7px;
+}
+label{
+    font-weight: 900;
+}
+input[type=submit]:hover,input[type=reset]:hover{
+    background-color: rgb(37, 32, 54);
+    margin: 10px 20px;
+    padding: 10px 20px;
+    color: rgb(3, 247, 255);
+    border: 2px solid #000000;
+    border-radius: 7px;
+}
+input[type=text], input[type=radio]{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+select, input[type=number]{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
